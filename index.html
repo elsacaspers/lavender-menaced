@@ -1,26 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
-</head>
-<body>
 
-    <nav>
-        <ul>
-          <li><a href="#">Feature</a></li>
-          <li><a href="#">Sponsors</a></li>
-          <li><a href="#">Biography</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <section class="nav-section">
+    <header class="navbar">
+      <div class="brand">
+        <img width="130" src="assets/lavender-menaced-a-psychological-thriller-logo-200x120.png" alt="Logo">
+      </div>
+      <button class="menu-toggle" id="menu-toggle">&#9776;</button>
+      <nav class="nav-links" id="nav-links">
+        <a class="nav-link" href="#">About</a>
+        <a class="nav-link" href="#">Team</a>
+        <a class="nav-link" href="#">Contribute</a>
+        <a class="button button-primary" id="contact-us-btn" href="mailto:lmalm@afi.edu">
+          <span><img class="mail-dark" src="assets/mail-dark.svg" width="16" alt="Email"><img class="mail-light" src="assets/mail-light.svg" width="16" alt="Email"></span>Contact us</a>
       </nav>
-      <main>
-        <h1>Welcome to Our AFI Film Project</h1>
-        <p>More content coming soon.</p>
-      </main>
-    
-    <script src="script.js"></script>
+    </header>
+  </section>
+
+  <main>
+    <section class="hero-title">
+      <h1>Lavender <br> <span class="highlight">menaced</span></h1>
+    </section>
+
+    <section class="logline-section">
+      <h4 class="section-title">Logline</h4>
+      <p class="p-large">A predator in queer disguise attempts to seduce a lipstick femme lesbian into the amnesia of date rape drugs when she unexpectedly turns the tables on him.</p>
+    </section>
+
+    <section class="themes-section">
+      <h4 class="section-title">Themes</h4>
+
+      <div class="themes-wrapper">
+        <h2>PSYCHOLOGICAL</h2>
+        <h2 class="highlight">THRILLER</h2>
+        <h2>NEO-NOIR</h2>
+        <h2 class="highlight">LGBTQ+</h2>
+      </div>
+
+      <h4 class="section-title">Story by <br>Lily Malm</h4>
+      <h4 class="section-title">Screenplay by <br>Lily Malm & Tickwanya Jones</h4>
+    </section>
+
+    <section class="why-section">
+      <h4 class="section-title">Why this story matters</h4>
+      <p class="p-large">The same month Roe v Wade was overturned in 2022, I was drugged at a gay club in West Hollywood, woke up in a hospital with no memory, bruised knees and a $1,724.89 medical bill only for the LAPD to never get back to me.</p>
+      <p class="p-large">This story is my revenge.</p>
+      <p>– Lily Malm, Screenwriter</p>
+    </section>
+    <section class="sponsors-section">
+      <h4 class="section-title">Production sponsored by</h4>
+      <div class="img-wrapper">
+        <img width="250" src="assets/drink-smart-logo.png" alt="Drink Smart Logo">
+        <img width="150" src="assets/kultur-ungdom-logo.png" alt="Kultur Ungdom Logo">
+        <img width="250" src="assets/filmbryggan-logo.png" alt="Filmbryggan Logo">
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
 </body>
+
 </html>
