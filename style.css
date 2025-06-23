@@ -470,6 +470,7 @@ h2 {
   .mobile-nav ul {
     list-style: none;
     text-align: center;
+    padding: 0;
   }
   .mobile-nav ul li {
     margin: 1.5rem 0;
