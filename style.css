@@ -401,7 +401,7 @@ h2 {
 
     .contribute-section .contribute-cards .contribute-card {
         flex: 1;
-        min-width: 300px;
+        min-width: 200px;
     }
 }
 
