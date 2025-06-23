@@ -320,6 +320,7 @@ h2 {
 
 .contribute-section .contribute-cards .contribute-card ul li {
     display: flex;
+    align-items: top;
     margin-bottom: 0;
     padding-bottom: 0;
 }
@@ -331,6 +332,8 @@ h2 {
 
 .contribute-section .contribute-cards .contribute-card ul li img {
     vertical-align: middle;
+    object-position: top;
+    align-self: top;
 }
 
 /* General Mobile styles */
@@ -393,6 +396,8 @@ h2 {
     .team-section .member-card .button {
         font-size: 14px;
     }
+
+        /* Contribute Section */
 
     .contribute-section .contribute-cards .contribute-card {
         flex: 1;
